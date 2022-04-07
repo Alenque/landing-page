@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+:root {
+    --primary: #E83C53;
+    --secondary: #2BAEBA;
+    --white: #FAFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #E83C53;
+    background-image: url(imgs/background.svg);
+    background-position: center;
+    height: 100vh;
+}
+
+#logo {
+    width: 47px;
+    height: 42px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 10px;
+  color: #E83C53;
+  background-color: #FAFFFF;
+}
+
+.telefone {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.numeros {
+    padding: 0 5px;
+}
+
+.local {
+    display: flex;
+    align-items: center;
+}
+
+.rua {
+    padding: 0 5px;
+}
+
+.logodc {
+    width: 47px;
+    height: 42px;
+}
+
+.tag {
+    position: absolute;
+    width: 1440px;
+    height: 65px;
+    left: 0px;
+    top: 44px;
+}
+
+
+.menu-infos {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.tittle {
+    position: absolute;
+    color: #FAFFFF;
+    width: 325px;
+    height: 104px;
+    left: 400px;
+    top: 330px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 52px;
+    letter-spacing: -0.005em;
+}
+
+.button {
+    position: absolute;
+    left: 455px;
+    top: 460px;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 104.4%;
+    text-transform: uppercase;
+    letter-spacing: 0.045em;
+    color: var(--white);
+    background: #2BAEBA;
+    width: 201px;
+    height: 66px;
+    border: none;
+    box-shadow: -5px 8px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition: background 0.4s ease-out;
+}
+
+.button:hover {
+    background-color: #39c3cf
+}
+
+.main-image {
+    position: absolute;
+    height: 777.55px;
+    left: 1333px;
+    top: 243px;
+    width: 10%;
+    background-color: var(--secondary);
+    width: 733px;
+    height: 733px;
+    border-radius: 400px;
+    border: none;
+}
+
+.circle1 {
+    position: absolute;
+    left: -2px;
+    top: 540px;
+}
+
+.circle2 {
+    position: absolute;
+    left: 1150px;
+    top: 230px;
+}
+
+.icons-redirect {
+    margin-top: 745px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.logo1 {
+    cursor: pointer;
+}
+
+.logo2 {
+    cursor: pointer;
+}
+
+.logo3 {
+    cursor: pointer;
+}
